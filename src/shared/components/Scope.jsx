@@ -38,14 +38,14 @@ function Scope() {
             <section className="max-w-[1400px] mx-auto 2xl:px-0 px-4 lg:py-15 py-10">
                 <div className="flex lg:flex-row flex-col  gap-0 lg:gap-10 ">
                     <div className=" flex items-center  justify-center group">
-                        <div className="overflow-hidden rounded-[35px]  border-4 border-[#d12852]">
-                            <img src="/images/scope.png" alt="aboutus" className="max-w-[505px] mx-auto group-hover:scale-105 duration-500 lg:block hidden" />
+                        <div className="overflow-hidden rounded-[35px]  border-4 border-[#d12852] lg:block hidden">
+                            <img src="/images/scope.png" alt="scope" className="max-w-[505px] mx-auto group-hover:scale-105 duration-500 " />
                         </div>
                         </div>
                         <div className="space-y-5 lg:space-y-0 flex   flex-col justify-center">
                             <h2 className="text-[#d12852] poppins-semibold lg:text-[34px] text-[24px] lg:text-start text-center">Conference Focus Areas</h2>
                             <div className=" flex items-center   justify-center max-w-[550px] mx-auto ">
-                                <img src="/images/mission.jpg" alt="aboutus" className=" rounded-[35px] border-4 border-[#d12852] block lg:hidden " loading='lazy' />
+                                <img src="/images/scope.png" alt="scope" className=" rounded-[35px] border-4 border-[#d12852] block lg:hidden " loading='lazy' />
                             </div>
                             <div className="space-y-3 mt-4">
                                 <p className="text-base inter-regular leading-[30px] opacity-85 text-justify">The scope of ICMRST spans a wide range of disciplines in science and technology, aiming to create a collaborative platform for researchers, scholars, industry professionals, and students. It encourages the integration of diverse expertise to address global challenges through innovative, multidisciplinary approaches that foster impactful and sustainable advancements in multiple sectors.</p>

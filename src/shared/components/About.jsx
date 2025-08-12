@@ -50,8 +50,8 @@ function About() {
             <section className="max-w-[1400px] mx-auto 2xl:px-0 px-4 lg:py-15 py-10">
                 <div className="flex lg:flex-row flex-col  gap-0 lg:gap-10 ">
                     <div className=" flex items-center  justify-center group">
-                        <div className="overflow-hidden rounded-[35px] border-4 border-[#d12852]">
-                            <img src="/images/about.jpg" alt="aboutus" className="max-w-[505px] mx-auto group-hover:scale-105 duration-500 lg:block hidden" />
+                        <div className="overflow-hidden rounded-[35px] border-4 border-[#d12852] lg:block hidden">
+                            <img src="/images/about.jpg" alt="aboutus" className="max-w-[505px] mx-auto group-hover:scale-105 duration-500 " />
                         </div>
                         </div>
                         <div className="space-y-5 lg:space-y-0 flex   flex-col justify-center">
