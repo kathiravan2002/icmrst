@@ -71,7 +71,7 @@ function Editorial() {
         },
         {
             members: 'Rakesh Ranjan',
-            university: 'University of Petroleum and Energy Studies',
+            university: 'UPES',
             location: 'India'
         },
         {
@@ -169,8 +169,8 @@ function Editorial() {
                                 <div className="w-full h-px bg-gradient-to-r from-transparent via-[#d12852] to-transparent"></div>
                             </div>
                             <div className="space-y-2   px-2">
-                                <p className="text-base inter-regular leading-[30px] opacity-85  text-center flex items-center justify-center gap-3"><FaUniversity className='text-lg text-[#d12852] flex   shrink-0' />{section.university}</p>
-                                <p className="text-base inter-regular leading-[30px] opacity-85  text-center flex items-center justify-center gap-3"><FaLocationDot className='text-lg text-[#d12852] flex shrink-0' />{section.location}</p>
+                                <p className="text-base inter-regular leading-[30px] opacity-85   flex items-center md:justify-center gap-3"><FaUniversity className='text-lg text-[#d12852] flex   shrink-0' />{section.university}</p>
+                                <p className="text-base inter-regular leading-[30px] opacity-85   flex items-center md:justify-center gap-3"><FaLocationDot className='text-lg text-[#d12852] flex shrink-0' />{section.location}</p>
 
                             </div>
 
