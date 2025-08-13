@@ -15,7 +15,7 @@ function Editorial() {
     const committeeData = [
 
         {
-            members: 'Ali A.Abdul saeed',
+            members: 'Ali A.Abdul Saeed',
             university: 'Wasit university',
             location: 'Iraq'
         },
@@ -111,9 +111,9 @@ function Editorial() {
         },
         
         {
-            members: 'Masoud Asghari',
-            university: 'University of Maragheh',
-            location: 'Saudi Arabia'
+            members: 'Aaron Izang',
+            university: 'Babcock University',
+            location: 'Nigeria'
         },
         {
             members: 'Sinarring Azi Laga',
