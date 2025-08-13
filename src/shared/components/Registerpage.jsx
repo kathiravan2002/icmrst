@@ -11,7 +11,7 @@ function Registerpage() {
                     <p className="poppins-bold text-[#d12852] text-3xl text-center mt-2">Important Dates</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
                         <div className=" bg-white  backdrop-blur-[10px] shadow-[0_0_10px_rgba(0,0,0,0.15)] rounded-lg p-5 ">
-                                <p className="poppins-bold text-[#d12852] text-lg text-center">12<sup className="">th</sup>  March ,2025</p>
+                                <p className="poppins-bold text-[#d12852] text-lg text-center">07<sup className="">th</sup>  March ,2025</p>
                                 <p className="poppins-semibold text-base text-center  mt-4">Paper Submission Deadline Final Extension</p>
                         </div>
                         <div className="bg-white   backdrop-blur-[10px] shadow-[0_0_10px_rgba(0,0,0,0.15)]  rounded-lg p-5">
