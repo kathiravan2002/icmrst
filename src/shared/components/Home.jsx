@@ -1,5 +1,6 @@
 import { ArrowRight } from 'lucide-react';
 import React from 'react'
+import Marquee from 'react-fast-marquee';
 import { FaCalendarAlt } from 'react-icons/fa';
 import { FaArrowRightLong } from 'react-icons/fa6';
 import { IoLocationSharp } from 'react-icons/io5';
@@ -31,6 +32,22 @@ function Home() {
         //     title: "Blockchain and Decentralized Technologies",
         //     content: "Study the underlying principles of blockchain, its applications in secure transactions, smart contracts, and decentralized finance, along with emerging decentralized web technologies."
         // }
+    ];
+
+
+
+    const imageItems = [
+        { src: '/images/associates/1.png', },
+        { src: '/images/associates/2.jpg', },
+        { src: '/images/associates/3.jpg', },
+        { src: '/images/associates/4.jpg', },
+        { src: '/images/associates/5.jpg', },
+        { src: '/images/associates/6.jpg', },
+        { src: "/images/associates/scopus.png", },
+        { src: "/images/associates/8.jpg", },
+        { src: "/images/associates/9.jpg", },
+        { src: "/images/associates/10.jpg", },
+        { src: "/images/associates/11.jpg", },
     ];
     return (
         <div >
@@ -126,6 +143,22 @@ function Home() {
                     ))}
                 </div>
             </section>
+            <div className="max-w-[1600px] mx-auto">
+                <div className=" pt-10 space-y-10   px-4">
+                    <h2 className="text-[#262341] poppins-semibold lg:text-[34px] text-[24px] text-center">Indexed Journals</h2>
+                    <p className="text-center inter-medium opacity-85 text-[18px] leading-[30px] max-w-[1000px] mx-auto">The Selective accepted papers of our International Conference on Multidisciplinary Research in Science and Technology will be recommended to publish in the following index & publisher Journals.</p>
+                </div>
+                <Marquee direction='left' gradient pauseOnClick pauseOnHover>
+                    <div className="  flex  pb-10 pt-10 ">
+                        {imageItems.map((item, index) => (
+                            <div key={index} className=" flex justify-center mr-10  py-5" >
+                                <img src={item.src} alt="images" className=" w-[300px] rounded-lg shadow-[0_0_8px_rgba(0,0,0,0.15)] hover:shadow-[0_0_20px_rgba(0,0,0,0.15)] transition duratiom-300" />
+                            </div>
+                        ))}
+                    </div>
+                </Marquee>
+
+            </div>
         </div>
     )
 }
