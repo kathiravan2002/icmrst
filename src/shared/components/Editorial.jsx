@@ -160,7 +160,7 @@ function Editorial() {
 
     ]
 
-    
+
     const technical = [
         {
             name: "Dr. Marcelo M S Souza",
@@ -495,7 +495,7 @@ function Editorial() {
                 </div> */}
 
                 <div className="">
-                    <h2 className="text-[#d12852] poppins-semibold lg:text-[34px] text-[26px] text-center mb-5">
+                    <h2 className="text-[#d12852] poppins-semibold lg:text-[34px] text-[26px] text-center mb-5 scroll-mt-[120px]" id="organizing-committee">
                         Organizing Committee
                     </h2>
                     <div className="space-y-2">
@@ -508,7 +508,7 @@ function Editorial() {
                     </div>
                 </div>
                 <div className="">
-                    <h2 className="text-[#d12852] poppins-semibold lg:text-[34px] text-[26px] text-center mt-10 mb-5">
+                    <h2 className="text-[#d12852] poppins-semibold lg:text-[34px] text-[26px] text-center mt-10 mb-5 scroll-mt-[120px]" id="technical-committee">
                         Technical Program Committee
                     </h2>
                     <div className="space-y-2">
@@ -521,7 +521,7 @@ function Editorial() {
                     </div>
                 </div>
                 <div className="">
-                    <h2 className="text-[#d12852] poppins-semibold lg:text-[34px] text-[26px] text-center mt-10 mb-5">
+                    <h2 className="text-[#d12852] poppins-semibold lg:text-[34px] text-[26px] text-center mt-10 mb-5 scroll-mt-[120px]" id="advisory-committee">
                         International Advisory Board Committee Members
                     </h2>
                     <div className="space-y-2">
