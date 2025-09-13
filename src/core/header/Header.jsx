@@ -21,7 +21,8 @@ function Header() {
             ? `${location.pathname}${location.hash}`
             : location.pathname;
         return currentPath === path;
-    }; const ToggleMenu = () => {
+    }; 
+    const ToggleMenu = () => {
         setMenuOpen(!MenuOpen);
     };
 
