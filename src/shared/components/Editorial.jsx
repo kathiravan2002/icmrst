@@ -341,9 +341,9 @@ function Editorial() {
             country: "China"
         },
         {
-            name: "Dr.  Huiliang Zhao",
-            university: "Guizhou minzu University",
-            expertise: " Department of product design",
+            name: "Dr.  Yonglin Chen",
+            university: "The First Hospital of Lanzhou University",
+            expertise: " Department of Computer Science",
             country: "China"
         },
         {
