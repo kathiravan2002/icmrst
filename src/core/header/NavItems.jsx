@@ -84,7 +84,7 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
           <div onClick={ToggleMenu} className="absolute right-5 top-5 cursor-pointer"><IoClose className="text-2xl" /></div>
 
           <ul className="flex flex-col items-start mt-0 *:my-2 *:px-2  overflow-y-auto max-h-[calc(100vh-150px)] ">
-            <Link to="/" className={` ${isActive ('/' )? 'text-[#262341] bg-white  rounded-lg min-w-[75px] py-1  px-2' : ' '}`}>
+            <Link to="/" className={` ${isActive('/') ? 'text-[#262341] bg-white  rounded-lg min-w-[75px] py-1  px-2' : ' '}`}>
               <li
                 onClick={() => {
                   ToggleMenu(false);
@@ -153,6 +153,8 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
                                             scrollToSection(sub.id);
                                             setDropdown1(false);
                                             toggleSubDropdown(index);
+                                            ToggleMenu(false);
+
                                           }}
                                           className={`block px-4 py-1.5 rounded-md cursor-pointer ${isSubActive ? 'text-[#262341] bg-white' : ''
                                             }`}
@@ -171,6 +173,8 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
                               onClick={() => {
                                 setDropdown1(false);
                                 setSubDropdown({});
+                                ToggleMenu(false);
+
                               }}
                               className={`block px-4 py-1.5 rounded-md cursor-pointer ${isActive(link.path) ? 'text-[#262341] bg-white' : ''
                                 }`}

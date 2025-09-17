@@ -200,7 +200,7 @@ function Editorial() {
         },
         {
             name: "Dr. Ammar Amjad",
-            university: " National Yang ming chiao tung university",
+            university: " National Yang Ming Chiao Tung University",
             expertise: "Department of Computer Science and Engineering ",
             country: "Taiwan"
         },
